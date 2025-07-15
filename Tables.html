@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="Tables.css">
+</head>
+
+<body>
+    <h1>TABLES</h1>
+    <hr>
+    <h2>Simple table!</h2>
+    <table id="table1">
+        <caption>Friends Details:</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Hobby</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ravi</td>
+                <td>5'8 </td>
+                <td>56kg</td>
+                <td>Exploring</td>
+            </tr>
+            <tr>
+                <td>Uday</td>
+                <td>5'9</td>
+                <td>53kg</td>
+                <td>Coding</td>
+            </tr>
+            <tr>
+                <td>Chandan</td>
+                <td>5'7</td>
+                <td>52kg</td>
+                <td>Study</td>
+            </tr>
+            <tr>
+                <td>Ashutosh</td>
+                <td>5'8</td>
+                <td>82kg</td>
+                <td>Study</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Names:Ravi, Uday, Chandan,Ashutosh</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Table using "rowspan" only !</h2>
+    <table id="table2nd">
+        <caption>Grocery items:</caption>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Product</th>
+                <th>Price(Rs.)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Fruits</td>
+                <td>Apple</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Vegetables</td>
+                <td>Tomato</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Potato</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Spinach</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Beverages</td>
+                <td>Tea</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td>150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Items: Fruits, Vegetables, Beverages</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Table using "colspan" only!</h2>
+    <table id="table3rd">
+        <caption>Class schedule:</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-1:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Maths</td>
+                <td>GS</td>
+                <td colspan="2">English</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Maths</td>
+                <td>GS</td>
+                <td>Reasoning</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td colspan="2">maths</td>
+                <td>Reasoning</td>
+                <td>GS</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>English</td>
+                <td colspan="2">GS</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">Reasoning</td>
+                <td>Maths</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Subjects: Maths, Reasoning, GS, English</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Table using both "rowspan" and "colspan"!</h2>
+    <table id="table4">
+        <caption>Students result:</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Roll No</th>
+                <th rowspan="2">Name</th>
+                <th colspan="4">Marks</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>SCience</th>
+                <th>English</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Uday</td>
+                <td>88</td>
+                <td>92</td>
+                <td>99</td>
+                <td>279</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Chandan</td>
+                <td>68</td>
+                <td>70</td>
+                <td>45</td>
+                <td>183</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Ashutosh</td>
+                <td>33</td>
+                <td>90</td>
+                <td>50</td>
+                <td>173</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Ravi</td>
+                <td>35</td>
+                <td>65</td>
+                <td>40</td>
+                <td>140</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Marks of: Maths , SCience ,English</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="Tables.js"></script>
+</body>
+</html>

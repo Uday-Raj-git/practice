@@ -1,0 +1,31 @@
+table{
+   border-collapse: separate;
+}
+table td{
+   border: 2px solid black;
+   padding: 3px;
+}
+#table1 th {
+border: 2px solid blue;
+}
+#table1 tfoot {
+color: blue;
+}
+#table2nd th{
+   border: 2px solid greenyellow;
+}
+#table2nd tfoot{
+color: solid greenyellow;
+}
+#table3rd th{
+   border: 2px solid red;
+}
+#table3rd tfoot {
+   color: red;
+}
+#table4 th {
+   border: 2px solid rgb(240, 6, 248);
+}
+#table4 tfoot{
+   color: rgb(240, 6, 248);
+}
